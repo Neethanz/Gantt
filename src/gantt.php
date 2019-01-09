@@ -1,10 +1,10 @@
 <?php
 
-namespace neethanz\Gantt;
+namespace neethanz\gantt;
 
 use Laravel\Nova\Card;
 
-class Gantt extends Card
+class gantt extends Card
 {
     /**
      * The width of the card (1/3, 1/2, or full).
@@ -62,6 +62,6 @@ class Gantt extends Card
      */
     public function component()
     {
-        return 'Gantt';
+        return 'gantt';
     }
 }

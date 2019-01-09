@@ -1,5 +1,5 @@
 {
-    "name": "neethanz/Gantt",
+    "name": "neethanz/gantt",
     "description": "A Laravel Nova card.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "neethanz\\Gantt\\": "src/"
+            "neethanz\\gantt\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "neethanz\\Gantt\\CardServiceProvider"
+                "neethanz\\gantt\\CardServiceProvider"
             ]
         }
     },
